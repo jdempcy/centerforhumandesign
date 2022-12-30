@@ -1,5 +1,5 @@
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/date-3.3.3/ext/date
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-22813-s629d0.rb extconf.rb
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-39145-f5icl7.rb extconf.rb
 checking for rb_category_warn()... yes
 checking for timezone in time.h with  -Werror... yes
 checking for altzone in time.h with  -Werror... no
@@ -19,4 +19,4 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/date-3.3.3/ext/date
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20221230-22813-m1fisb
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20221230-39145-mevqhd

@@ -3,6 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+# Not recommended - uncomment following if nothing else works for nokogiri
+# instead first try:
+#    bundle lock --add-platform x86_64-darwin
+#    bundle lock --add-platform x86_64-linux
+#    bundle package --all-platforms
+
+# gem "nokogiri", force_ruby_platform: true
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 

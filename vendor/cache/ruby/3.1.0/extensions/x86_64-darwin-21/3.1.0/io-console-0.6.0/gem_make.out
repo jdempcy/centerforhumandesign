@@ -1,5 +1,5 @@
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-22813-8pmi2q.rb extconf.rb
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-39145-fyvbu5.rb extconf.rb
 checking for termios.h... yes
 checking for cfmakeraw() in termios.h... yes
 checking for sys/ioctl.h... yes
@@ -17,4 +17,4 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 console.bundle ./.gem.20221230-22813-za9qwg/io
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 console.bundle ./.gem.20221230-39145-xoijvl/io

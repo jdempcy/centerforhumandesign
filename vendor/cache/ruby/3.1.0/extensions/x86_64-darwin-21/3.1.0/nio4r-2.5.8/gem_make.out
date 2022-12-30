@@ -1,5 +1,5 @@
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-22813-w2wu57.rb extconf.rb
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-39145-kode6t.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -297,4 +297,4 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20221230-22813-mcmnqf
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20221230-39145-2ra9ze

@@ -1,5 +1,5 @@
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/debug-1.7.1/ext/debug
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-22813-utp5dn.rb extconf.rb
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-39145-n3oy2z.rb extconf.rb
 creating Makefile
 
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/debug-1.7.1/ext/debug
@@ -14,4 +14,4 @@ ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/jdempcy/dev-workspace/centerforhumandesign.org/centerforhumandesign/vendor/cache/ruby/3.1.0/gems/debug-1.7.1/ext/debug
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20221230-22813-n6gghq/debug
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20221230-39145-5bdh59/debug
