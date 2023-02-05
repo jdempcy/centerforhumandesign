@@ -9,6 +9,18 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
+    <script>
+      if (!localStorage.getItem("early-access")) {
+        const password = prompt("Please enter the early access password:");
+        if (password === "rawashere") {
+          localStorage.setItem("early-access", true);
+        } else {
+          localstorage.setItem("early-access", false);
+          window.location('http://www.google.com')
+        }
+      }
+    </script>
   </head>
 
   <body>
