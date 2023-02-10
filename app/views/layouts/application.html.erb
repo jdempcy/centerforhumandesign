@@ -11,12 +11,12 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
 
     <script>
-      if (!localStorage.getItem("early-access")) {
-        const password = prompt("Please enter the early access password:");
-        if (password === "rawashere") {
-          localStorage.setItem("early-access", true);
+      if (!localStorage.getItem('early-access') || localStorage.getItem('early-access') === 'false') {
+        const password = prompt('Please enter the early access password:');
+        if (password === 'rawashere') {
+          localStorage.setItem('early-access', true);
         } else {
-          localStorage.setItem("early-access", false);
+          localStorage.setItem('early-access', false);
           window.location = 'http://www.google.com';
         }
       }
