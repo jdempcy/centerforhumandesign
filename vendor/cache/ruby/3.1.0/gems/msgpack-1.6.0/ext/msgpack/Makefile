@@ -13,12 +13,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/jdempcy/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0
+topdir = /Users/jdempcy/.rvm/rubies/ruby-3.1.0/include/ruby-3.1.0
 hdrdir = $(topdir)
-arch_hdrdir = /Users/jdempcy/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin21
+arch_hdrdir = /Users/jdempcy/.rvm/rubies/ruby-3.1.0/include/ruby-3.1.0/x86_64-darwin20
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/jdempcy/.rvm/rubies/ruby-3.1.2
+prefix = $(DESTDIR)/Users/jdempcy/.rvm/rubies/ruby-3.1.0
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -32,8 +32,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20221230-39145-xbgn78
-sitelibdir = $(DESTDIR)./.gem.20221230-39145-xbgn78
+sitearchdir = $(sitelibdir)/$(sitearch)
+sitelibdir = $(sitedir)/$(ruby_version)
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -82,7 +82,7 @@ cflags   = -fdeclspec $(optflags) $(debugflags) $(warnflags)
 cxxflags = 
 optflags = -O3 -fno-fast-math
 debugflags = -ggdb3
-warnflags = -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef
+warnflags = -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef
 cppflags = 
 CCDLFLAGS = -fno-common
 CFLAGS   = $(CCDLFLAGS) -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include $(cflags) -fno-common -pipe -I.. -Wall -O3 -ggdb3 -std=gnu99 -DHASH_ASET_DEDUPE=1  -DSTR_UMINUS_DEDUPE=1  -DSTR_UMINUS_DEDUPE_FROZEN=1  $(ARCH_FLAG)
@@ -106,7 +106,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = x86_64-darwin21
+arch = x86_64-darwin20
 sitearch = $(arch)
 ruby_version = 3.1.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)
